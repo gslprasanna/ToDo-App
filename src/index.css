@@ -1,0 +1,131 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+html,body{
+  background-color: #FFB6C1
+}
+
+.wrapper{
+  max-width: 1200px;
+  height: auto;
+  margin: 30px auto;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+h3{
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-style: bold;
+  font-weight: 2000;
+  font-size: 50px;
+}
+
+.form-and-todo-box{
+  width: 700px;
+  margin: auto;
+  height: auto;
+}
+
+.form-and-todo-box .input-and-button{
+  height: 55px;
+  background-color: #fff;
+  overflow: hidden;
+  display: flex;
+}
+
+.form-and-todo-box .input-and-button input{
+  width: 100%;
+  height: 100%;
+  outline: none;
+  border: none;
+  text-indent: 2px;
+  font-size: 20px;
+  padding: 5px;
+  font-family: 'Times New Roman', Times, serif;
+  /* border: 2px solid #f92c0f; */
+}
+
+.form-and-todo-box .input-and-button .button{
+  width: 8%;
+  height: 100%;
+  background-color: rgb(32, 126, 32);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top:-1px;
+}
+
+.form-and-todo-box .input-and-button .button.edit{
+  width: auto;
+  padding: 0px 10px;
+  
+}
+.button{
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.form-and-todo-box .input-and-button .button button{
+  outline: none;
+  cursor: pointer;
+border: none;
+  background-color: transparent;
+  color: #fff;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+}
+
+.todo{
+  margin: 25px 0px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid;
+  padding-bottom: 5px;
+  
+}
+
+.todo input{
+  margin-right: 5px;
+  color: black;
+}
+
+.todo span{
+  font-size: 20px;
+  font-weight: 600;
+  font-family: 'Times New Roman', Times, serif;
+
+}
+
+.todo .edit-and-delete{
+  display: flex;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.delete-all{
+  padding: 10px;
+  cursor: pointer;
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.add{
+  font-size: 30px;
+  background-color: green;
+  color: white;
+  width: 100px;
+  height: 45px;
+  font-size:  17px;
+  background-color: rgb(32, 126, 32);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top:-1px;
+  font-family: 'Times New Roman', Times, serif;
+}
